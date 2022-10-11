@@ -1,7 +1,7 @@
 import cv2
 
 # читать изображение QRCODE
-img = cv2.imread("2.jpg")
+img = cv2.imread("1.jpg")
 # инициализируем детектор QRCode cv2
 detector = cv2.QRCodeDetector()
 # обнаружить и декодировать
