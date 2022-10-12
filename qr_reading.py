@@ -4,6 +4,7 @@ import cv2
 img = cv2.imread("1.jpg")
 # инициализируем детектор QRCode cv2
 detector = cv2.QRCodeDetector()
+#вы все пидоры
 # обнаружить и декодировать
 data, bbox, straight_qrcode = detector.detectAndDecode(img)
 # if there is a QR code
